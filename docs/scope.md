@@ -9,9 +9,9 @@ APRSIS32 exactly. "Needs" lists the APRS.NET gaps ([aprsnet/gaps.md](aprsnet/gap
 Status values: `scoped` → `spec'd` (feature doc exists in `docs/features/`) → `building` → `done`.
 
 Work is tracked on GitHub: each feature planned for a release is an issue labelled `feature` in that release's
-milestone (0.3.0 to [0.8.0-alpha.1](https://github.com/APRS-NET/zedMap/milestone/6) done; 0.9.0 alphas now, while
-[0.10.0-alpha.1](https://github.com/APRS-NET/zedMap/milestone/7) renames the app to zedMap with its repo and gateway
-service and switches to the registered TOCALL, released as 0.10.0-alpha.1 once that's complete and validated; then
+milestone (0.3.0 to [0.8.0-alpha.1](https://github.com/APRS-NET/zedMap/milestone/6) done; the 0.9.0 alphas renamed
+the app to zedMap with its repo and gateway service (0.9.0-alpha.5); the 0.10.0 alphas, from
+[0.10.0-alpha.1](https://github.com/APRS-NET/zedMap/milestone/7), validate it and switch to the registered TOCALL; then
 [0.11.0-alpha.1](https://github.com/APRS-NET/zedMap/milestone/8), the new APRS.NET IS2 features), and PRs close it (`Closes #N`) or reference it
 (`Part of #N`). This table stays the full inventory; the milestone shows what's in flight, and a status of the form
 "spec'd (0.4.0)" names the milestone a feature is planned for.
