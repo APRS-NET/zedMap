@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0-alpha.1](https://github.com/APRS-NET/zedMap/compare/v0.9.0-alpha.5...v0.10.0-alpha.1) (2026-11-22)
+
+
+### Miscellaneous Chores
+
+* start the 0.10.0 alpha line ([d1224a4](https://github.com/APRS-NET/zedMap/commit/d1224a4111e164e8d12ed0ada65b98c082c46aad))
+
 ## [0.9.0-alpha.5](https://github.com/APRS-NET/zedMap/compare/v0.9.0-alpha.4...v0.9.0-alpha.5) (2026-11-21)
 
 
