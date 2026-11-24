@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.0-alpha.2](https://github.com/APRS-NET/zedMap/compare/v0.10.0-alpha.1...v0.10.0-alpha.2) (2026-11-24)
+
+
+### Bug Fixes
+
+* **deps:** Bump csharpier from 1.4.0 to 1.4.1 ([3519646](https://github.com/APRS-NET/zedMap/commit/35196463002efe0495589e95e13d44dabef74599))
+* **deps:** Bump dotnet-reportgenerator-globaltool from 5.6.0 to 5.6.1 ([308a263](https://github.com/APRS-NET/zedMap/commit/308a263aa98262a49e8766d091f98cc4c77f321b))
+
 ## [0.10.0-alpha.1](https://github.com/APRS-NET/zedMap/compare/v0.9.0-alpha.5...v0.10.0-alpha.1) (2026-11-22)
 
 
