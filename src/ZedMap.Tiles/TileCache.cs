@@ -144,7 +144,8 @@ internal sealed partial class TileCache : IDisposable
     private void StartRevalidation(int z, int x, int y, string? referer)
     {
         var key = string.Create(CultureInfo.InvariantCulture, $"{z}/{x}/{y}");
-        _revalidating.GetOrAdd(key, _ => Task.Run(async () =>
+        _revalidating.GetOrAdd(key, _ =>
+            Task.Run(async () =>
             {
                 try
                 {
@@ -156,7 +157,8 @@ internal sealed partial class TileCache : IDisposable
                 {
                     _revalidating.TryRemove(key, out Task? _);
                 }
-            }));
+            })
+        );
     }
 
     private async Task<TileResult> FetchAsync(
