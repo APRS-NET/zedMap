@@ -6,6 +6,8 @@ on:
   push:
     branches: [main]
   pull_request:
+  # The merge queue on main waits for ci-ok on its gh-readonly-queue branch; without this trigger it never starts.
+  merge_group:
 
 permissions:
   contents: read
@@ -28,7 +30,7 @@ jobs:
           persist-credentials: false
       - id: filter
         env:
-          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          BASE: ${{ github.event.pull_request.base.sha || github.event.merge_group.base_sha || github.event.before }}
         run: |
           # Without a usable base (a new branch, or history that was rewritten) everything runs.
           if [ -z "$BASE" ] || ! git cat-file -e "$BASE^{commit}" 2> /dev/null; then
