@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.10.0-alpha.3](https://github.com/APRS-NET/zedMap/compare/v0.10.0-alpha.2...v0.10.0-alpha.3) (2026-11-24)
+
+
+### Bug Fixes
+
+* **deps:** Bump Dock.Avalonia and 3 others ([1b42aad](https://github.com/APRS-NET/zedMap/commit/1b42aada6adf7f5833cbbfc8aff5ebc72025a23f))
+* **deps:** Bump the aprs-net group with 12 updates ([0579bdd](https://github.com/APRS-NET/zedMap/commit/0579bdde4086d0beff878e7f73ae5fccdb97aa91))
+* **deps:** Bump the avalonia group with 7 updates ([e335bf4](https://github.com/APRS-NET/zedMap/commit/e335bf4e9bb9b8e0e405e9e833185a9e7356d510))
+
 ## [0.10.0-alpha.2](https://github.com/APRS-NET/zedMap/compare/v0.10.0-alpha.1...v0.10.0-alpha.2) (2026-11-24)
 
 
