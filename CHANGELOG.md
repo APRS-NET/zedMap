@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0-alpha.4](https://github.com/APRS-NET/zedMap/compare/v0.10.0-alpha.3...v0.10.0-alpha.4) (2026-11-25)
+
+
+### Bug Fixes
+
+* **deps:** Bump the aprs-net group with 12 updates ([9f138ac](https://github.com/APRS-NET/zedMap/commit/9f138ac62eef7549c782b7468c21918add103a15))
+
 ## [0.10.0-alpha.3](https://github.com/APRS-NET/zedMap/compare/v0.10.0-alpha.2...v0.10.0-alpha.3) (2026-11-24)
 
 
